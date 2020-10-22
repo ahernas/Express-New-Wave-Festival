@@ -5,6 +5,9 @@
   "repository": "git@github.com:ahernas/Express-REST-API.git",
   "author": "Anna Garczarek <ania.garczarek@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "express": "4.17.1",
     "nodemon": "^2.0.4",
