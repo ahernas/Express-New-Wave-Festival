@@ -1,0 +1,13 @@
+{
+  "name": "Express-REST-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ahernas/Express-REST-API.git",
+  "author": "Anna Garczarek <ania.garczarek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "2.2.0"
+  }
+}
