@@ -33,7 +33,7 @@ app.use((req, res) => {
     res.status(404).send('Not found...');
 });
 
-mongoose.connect('mongodb://localhost:27017/NewWaveDB', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://anna-h:new-user@cluster0.5xddi.mongodb.net/NewWaveDB?retryWrites=true&w=majority', { useNewUrlParser: true });
 const db = mongoose.connection;
 
 db.once('open', () => {
